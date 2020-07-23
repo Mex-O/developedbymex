@@ -1,0 +1,359 @@
+body,html{
+overflow-x:hidden;
+padding:0px;
+margin:0px;
+height:100%;
+width:100%;
+font-family:cambria;
+font-size:18px;
+scroll-behavior: smooth;
+}
+#header{
+    background-image:url('mex.jpg');
+    background-repeat:none;
+    background-size:cover;
+    background-position:center;
+    min-height:500px;
+    max-height:900px;
+}
+#header2{
+    background-image:url('htm.png');
+    background-repeat:none;
+    background-size:cover;
+    background-position:cover;
+    min-height:500px;
+    max-height:900px;
+}
+#header3{
+    background-image:url('js.png');
+    background-repeat:none;
+    background-size:cover;
+    background-position:cover;
+    min-height:500px;
+    max-height:900px;
+}
+#header4{
+    background-image:url('fe.png');
+    background-repeat:none;
+    background-size:cover;
+    background-position:cover;
+    min-height:500px;
+    max-height:900px;
+}
+#bar{
+    color:white;
+    padding-right:30px;
+    padding-top:8px;
+}
+#card{
+    color:black;
+}
+#card:hover{
+    border:1px solid red;
+}
+#xe{
+    color:red;
+    font-size:25px;
+    display:none;
+    padding-right:20px;
+    transition:all 1s;
+    opacity:1;
+    font-family:arial;
+}
+.data-aos{
+    overflow-x:hidden;
+}
+#navbar{
+    background:black;
+    display:none;
+    padding-left:30px;
+    color:white;
+    position:sticky;
+}
+.navbar{
+    border:1px solid whitesmoke;
+    box-shadow:2px 2px 2px 2px whitesmoke;
+}
+#nav{
+    font-family:freestyle script;
+    color:white;
+    font-size:24px;
+}
+#navv{
+    font-family:freestyle script;
+    color:lightgreen;
+    font-size:30px; 
+}
+#nav-link{
+    color:lightgreen;
+    font-size:20px;
+}
+nav{
+    width:100%;
+    transition:all 2s;
+    opacity:1;
+}
+#log{
+    color:white;
+    text-align:center;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+    color:red;
+    font-weight:bold;
+    text-decoration:none;
+}
+.navbar-nav{
+    float:center;
+}
+h3{
+    margin-top:70px;
+    color:white;
+    font-weight:bolder;
+}
+p{
+    color:white;
+    margin-top:40px;
+}
+.btn-danger{
+    border-radius:30px;
+    margin-top:40px;
+}
+.btn-danger:hover{
+    box-shadow:none;
+    border:none;
+    background:seagreen;
+}
+@media only screen and (min-width:768px){
+    
+}
+.navbar-toggler-icon{
+    color:white;
+}
+.rounded-circle{
+width:30px;
+height:30px;
+}
+#course{
+    margin-top:50px;
+    font-weight:lighter;
+    margin-bottom:40px;
+}
+.content{
+    color:black;
+}
+.mon{
+    color:red;
+    text-align:right;
+    font-size:25px;
+}
+b{
+    text-align:left;
+}
+.card{
+margin-bottom:10px;
+}
+footer{
+    margin-top:60px;
+    background:gray;
+    color:white;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family:gabriola;
+    font-size:25px;
+}
+
+#discount{
+    margin-top:30px;
+    margin-bottom:30px;
+    text-transform:uppercase;
+    padding:40px;
+}
+#info{
+    background:silver;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-bottom:30px;
+}
+#round{
+    height:200px;
+    width:200px;
+}
+#sp{
+    margin-top:20px;
+}
+#get{
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:30px;
+
+}
+#btn{
+    margin-top:10px;
+}
+.h3{
+    margin-top:200px;
+    opacity:0.9;
+}
+.pi{
+    color:black;
+}
+.piy{
+    color:black;
+    font-weight:lighter;
+    font-size:15px;
+}
+.btn-danger{
+    margin-bottom:30px;
+}
+.pii{
+    color:black;
+}
+#gett{
+    margin-top:30px;
+    margin-bottom:20px;
+    background:gainsboro;
+    padding-top:30px;
+}
+video{
+    min-width:70%;
+    max-width:75%;
+}
+#conty{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.h2{
+    color:green;
+}
+#gta{
+    margin-top:100px;
+    margin-bottom:50px;
+    padding-bottom:40px;
+}
+@media only screen and (max-width:768px){
+    #img{
+        display:none;
+    }
+}  
+.f2{
+    color:green;
+}
+#ff{
+    margin-top:30px;
+    padding-bottom:30px;
+    font-size:30px;
+}
+input[type=search],[type=email],[type=password]{
+    min-width:50%;
+    max-width:100%;
+    font-size:20px;
+    padding:5px;
+    margin-top:10px;
+}
+#caro{
+    margin-bottom:40px;
+    margin-top:30px;
+    max-width:98%;
+    min-width:90%;
+}
+.card-content{
+margin-bottom:5px;
+}
+#vege{
+    margin-bottom:39px;
+}
+.p{
+    color:black;
+    margin-top:none;
+}
+main{
+    background:lightgreen;
+    margin-top:20px;
+    padding-top:30px;
+    padding-bottom:40px;
+}
+.icon{
+    color:black;
+    font-size:100px;
+}
+#frt{
+    padding-bottom:30px;
+
+}
+.err{
+    color:black;
+    font-size:24px;
+}
+.carousel{
+    font-size:18px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+#footer{
+    background:green;
+    margin-top:60px;
+    padding-bottom:50px;
+    color:white;
+}
+.card-footer{
+    background:green;
+    color:white;
+}
+#imgg{
+    min-width:100%;
+    max-width:100%;
+}
+#login{
+    margin-top:120px;
+    background:white;
+    border-bottom-left-radius: 30px;
+}
+#body{
+    background:silver;
+}
+@media only screen and (min-width:768px){
+  
+#login{
+    margin-top:120px;
+    background:white;
+    padding-left:100px;
+
+}
+}
+#success, #danger{
+    width:50%;
+    display:none;
+}
+form{
+    padding-top:20px;
+}
+.forg{
+    color:black;
+    text-decoration: underline;
+}
+#scrol{
+    transition:all 1s;
+    position:relative;
+    animation-name:myAnimation;
+    animation-iteration-count: infinite;
+}
+@keyframes myAnimation{
+    from{
+        top:0%;
+        left:0px;
+    }
+    to{
+        top:100%;
+    }
+}
+.copy{
+    font-size:28px;
+}
+#foy{
+    padding-top:40px;
+    padding-bottom:20px;
+}
