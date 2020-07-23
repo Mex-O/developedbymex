@@ -10,7 +10,7 @@ scroll-behavior: smooth;
 }
 #header{
     background-image:url('mex.jpg');
-    background-repeat:none;
+    background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
     background-repeat:none;
