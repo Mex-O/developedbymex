@@ -13,6 +13,7 @@ scroll-behavior: smooth;
     background-repeat:none;
     background-size:cover;
     background-position:center;
+    background-repeat:none;
     min-height:500px;
     max-height:900px;
 }
