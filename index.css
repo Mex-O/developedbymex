@@ -4,21 +4,20 @@ padding:0px;
 margin:0px;
 height:100%;
 width:100%;
-font-family:cambria;
+font-family:'verta', 'sans-serif';
 font-size:18px;
 scroll-behavior: smooth;
 }
 #header{
-    background-image:url('mex.jpg');
+    background-image:url('images/mex.jpg');
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    background-repeat:none;
     min-height:500px;
     max-height:900px;
 }
 #header2{
-    background-image:url('htm.png');
+    background-image:url('images/htm.png');
     background-repeat:none;
     background-size:cover;
     background-position:cover;
@@ -26,7 +25,7 @@ scroll-behavior: smooth;
     max-height:900px;
 }
 #header3{
-    background-image:url('js.png');
+    background-image:url('images/js.png');
     background-repeat:none;
     background-size:cover;
     background-position:cover;
@@ -34,7 +33,7 @@ scroll-behavior: smooth;
     max-height:900px;
 }
 #header4{
-    background-image:url('fe.png');
+    background-image:url('images/fe.png');
     background-repeat:none;
     background-size:cover;
     background-position:cover;
@@ -76,12 +75,12 @@ scroll-behavior: smooth;
     box-shadow:2px 2px 2px 2px whitesmoke;
 }
 #nav{
-    font-family:freestyle script;
+    font-family:'Dancing script', 'cursive';
     color:white;
     font-size:24px;
 }
 #navv{
-    font-family:freestyle script;
+    font-family:'Dancing script', 'cursive' ;
     color:lightgreen;
     font-size:30px; 
 }
@@ -163,10 +162,8 @@ footer{
     color:white;
     padding-top:30px;
     padding-bottom:30px;
-    font-family:gabriola;
-    font-size:25px;
-    Position:fixed;
-    Bottom:0px;
+    font-family:gabriela;
+    font-size:20px;
 }
 
 #discount{
@@ -251,7 +248,7 @@ video{
     font-size:30px;
 }
 input[type=search],[type=email],[type=password]{
-    min-width:50%;
+    min-width:100%;
     max-width:100%;
     font-size:20px;
     padding:5px;
@@ -323,7 +320,7 @@ main{
 #login{
     margin-top:120px;
     background:white;
-    padding-left:100px;
+    padding-left:30px;
 
 }
 }

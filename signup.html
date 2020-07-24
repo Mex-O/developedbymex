@@ -126,8 +126,8 @@ button:hover {
 
     <div class="clearfix">
       <button type="button" class="cancelbtn" id="btn1" onclick="cancel()">Cancel</button>
-      <button type="submit" class="signupbtn" id="btn2" onclick="sub()">Sign Up</button>
-    </div>
+     <a href="mailto:aderibigbeoluwaseun4@gmail.com"> <button type="submit" class="signupbtn" id="btn2">Sign Up</button>
+    </a></div>
   </div>
 </form>
 
@@ -139,16 +139,5 @@ button:hover {
     }
 
     
-    function sub(){
-        var psw=document.getElementById('psw').value;
-        var psw2=document.getElementById('psw2').value;
-        if(psw==psw2 || psw&&psw2>5){
-        var btn2=document.getElementById('btn2');
-        window.open('mailto:aderibigbeoluwaseun4@gmail.com');
-        }
-        else if(psw!==psw2 && psw&&psw2<5){
-            alert("Pls fill in a valid password")
-        }
-    }
 </script>
 </html>
